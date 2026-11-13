@@ -5,10 +5,10 @@
       "date": "2026-11-12",
       "kind": "coverage_check",
       "line": "Home",
-      "slug": "holiday-hosting-liability",
+      "slug": "holiday-hosting-liability-b",
       "spec": {
         "template": "tip",
-        "style": "light",
+        "style": "bold",
         "eyebrow": "Home Coverage Check",
         "headline": "Hosting this holiday? Know your liability",
         "points": [
