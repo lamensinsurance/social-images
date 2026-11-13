@@ -1,0 +1,45 @@
+{
+  "week": "2026-11-12 launch night",
+  "entries": [
+    {
+      "date": "2026-11-12",
+      "kind": "coverage_check",
+      "line": "Home",
+      "slug": "replacement-cost-vs-acv",
+      "spec": {"template": "tip", "eyebrow": "Home Coverage Check", "headline": "Replacement cost vs. actual cash value", "points": ["Replacement cost: pays to buy new", "Actual cash value: minus wear & age", "Check which one your policy uses"], "footer_cta": "Questions? (425) 419-0099"},
+      "caption": "Two policies can cover the same couch and pay very different amounts. The difference often comes down to two phrases. 🛋️\n\nREPLACEMENT COST coverage is designed to pay what it costs to replace a damaged item with a new one of similar kind and quality. ACTUAL CASH VALUE pays what the item was worth at the time of the loss, which means depreciation for age and wear is subtracted. On older belongings, that gap can be big.\n\nMany home policies handle the house itself and your personal belongings differently, so it's worth checking both. Some policies also pay actual cash value first and the rest once the item is actually replaced.\n\nNot sure which one your policy uses? Call or text (425) 419-0099 for a free coverage review.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "coverage_check",
+      "line": "Renters",
+      "slug": "renters-insurance-basics",
+      "spec": {"template": "tip", "eyebrow": "Renters Coverage Check", "headline": "Renting? Your landlord's policy isn't yours", "points": ["It covers the building, not your stuff", "Renters insurance covers belongings", "It can include liability too"], "footer_cta": "Questions? (425) 419-0099"},
+      "caption": "One of the most common renter surprises: \"I figured the landlord's insurance would cover it.\" 🏢\n\nYour landlord's policy is generally built to protect the building and the landlord's own liability, not your personal belongings. If a fire, burst pipe or break-in damages your furniture, electronics or clothes, that's typically where renters insurance comes in.\n\nMany renters policies also include personal liability, which can help if someone is hurt in your unit or you accidentally damage someone else's property, and additional living expenses if a covered loss forces you to stay somewhere else for a while.\n\nRenting and not sure what you'd be covered for? Call or text (425) 419-0099 and we'll walk through it.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #RentersInsurance"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "coverage_check",
+      "line": "Auto",
+      "slug": "uninsured-motorist",
+      "spec": {"template": "tip", "eyebrow": "Auto Coverage Check", "headline": "What if the other driver has no insurance?", "points": ["Uninsured motorist coverage helps", "Underinsured covers limits that fall short", "Worth a look on every auto policy"], "footer_cta": "Questions? (425) 419-0099"},
+      "caption": "You can drive carefully and still get hit by someone with little or no insurance. That's exactly the gap uninsured and underinsured motorist coverage is designed for. 🚗\n\nUNINSURED motorist coverage can help pay for your injuries, and in some cases damage to your car, when the at-fault driver has no insurance or it's a hit-and-run. UNDERINSURED motorist coverage can help when the at-fault driver has insurance, but not enough to cover your costs.\n\nWhat's included, and whether it covers injuries, vehicle damage or both, depends on your policy and your state.\n\nWant to know if you have it and how much? Call or text (425) 419-0099 for a quick review.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "coverage_check",
+      "line": "Home",
+      "slug": "home-inventory",
+      "spec": {"template": "tip", "eyebrow": "Home Coverage Check", "headline": "Make a home inventory before you need one", "points": ["Walk through with your phone video", "Open closets, drawers and the garage", "Save it somewhere off-site"], "footer_cta": "Questions? (425) 419-0099"},
+      "caption": "If you had to list everything in your home after a fire or break-in, how much would you forget? Most people forget a lot. 📱\n\nA home inventory makes a claim faster and less stressful, and it helps you see whether your personal property limit is high enough. The easy version takes about 20 minutes:\n• Record a slow video walking through every room\n• Open closets, cabinets and drawers, and don't skip the garage\n• Talk through bigger items as you go (brand, roughly when you bought it)\n• Snap photos of receipts or serial numbers for electronics and jewelry\n• Save it to cloud storage or email it to yourself so it survives if your home doesn't\n\nGot your inventory and want to make sure your coverage matches it? Call or text (425) 419-0099.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance #HomeInventory"
+    },
+    {
+      "date": "2026-11-12",
+      "kind": "coverage_check",
+      "line": "Life",
+      "slug": "how-much-life-insurance",
+      "spec": {"template": "tip", "eyebrow": "Life Coverage Check", "headline": "How much life insurance is enough?", "points": ["Start with debts and the mortgage", "Add years of income to replace", "Include future costs like college"], "footer_cta": "Questions? (425) 419-0099"},
+      "caption": "\"How much life insurance do I need?\" There's no one-size answer, but there is a simple way to start thinking about it. 💡\n\nMany people begin by adding up what their family would need if their income stopped:\n• Debts that would still need paying, including the mortgage\n• Years of income your family would need replaced\n• Future goals, like college for the kids\n• Final expenses\nThen subtract savings and any coverage you already have, like a policy through work.\n\nIt's a starting point, not a formula. Your real number depends on your goals, your budget and the people who rely on you. This post is educational only. Want to talk it through? Call or text (425) 419-0099.\n\nCoverage, features and availability vary by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #LifeInsurance"
+    }
+  ]
+}
