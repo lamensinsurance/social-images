@@ -4,25 +4,6 @@
     {
       "date": "2026-11-12",
       "kind": "coverage_check",
-      "line": "Home",
-      "slug": "porch-package-theft",
-      "spec": {
-        "template": "tip",
-        "eyebrow": "Home Coverage Check",
-        "headline": "Package stolen off your porch?",
-        "points": [
-          "Start with the seller or carrier",
-          "Home policies may cover it",
-          "Your deductible applies first"
-        ],
-        "footer_cta": "Questions? (425) 419-0099",
-        "style": "navy"
-      },
-      "caption": "Holiday shipping season is here, and so are porch thieves. If a package disappears, here's how it usually plays out. 📦\n\nStart with the retailer or shipping company. Many will replace or refund a stolen delivery, and that's often the fastest fix. Stolen personal property can also be covered under many homeowners and renters policies, but your deductible applies first, so a claim usually only makes sense for bigger-ticket items.\n\nA few ways to cut the risk:\n• Use delivery tracking and bring packages in quickly\n• Ship to a locker, a store pickup or your workplace\n• Ask for a signature on expensive orders\n\nNot sure how theft is handled on your policy? Call or text (425) 419-0099.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance #HolidaySafety"
-    },
-    {
-      "date": "2026-11-12",
-      "kind": "coverage_check",
       "line": "Auto",
       "slug": "lending-your-car",
       "spec": {
