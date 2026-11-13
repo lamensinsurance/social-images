@@ -79,7 +79,10 @@ def footer(img, d, dark_bg, logo_path, cta):
         d.text((MARGIN, yc + 12), "Insurance in Lamens Terms", font=font("med", 24), fill=BLUE)
     cta = cta or "(425) 419-0099"
     f = font("semi", 30)
-    d.text((W - MARGIN - d.textlength(cta, font=f), yc - 18), cta, font=f, fill=WHITE)
+    d.text((W - MARGIN - d.textlength(cta, font=f), yc - 34), cta, font=f, fill=WHITE)
+    sf = font("med", 24)
+    sv = "Serving WA, OR & ID"
+    d.text((W - MARGIN - d.textlength(sv, font=sf), yc + 10), sv, font=sf, fill=BLUE)
 
 def render_tip(spec, logo):
     img = Image.new("RGB", (W, H), NAVY)
