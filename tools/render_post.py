@@ -138,6 +138,70 @@ def render_blog(spec, logo):
     footer(img, d, False, logo, spec.get("footer_cta"))
     return img
 
+PALE = (232, 242, 250)     # light blue-gray background
+
+def render_light(spec, logo):
+    """Style 'light': pale background, navy text, numbered white cards."""
+    img = Image.new("RGB", (W, H), PALE)
+    d = ImageDraw.Draw(img)
+    d.ellipse([-300, -300, 340, 340], fill=(214, 232, 245))
+    tag = spec.get("eyebrow", "INSURANCE TIP").upper()
+    tf = font("semi", 30)
+    tw = d.textlength(tag, font=tf)
+    d.rounded_rectangle([MARGIN, 140, MARGIN + tw + 56, 200], radius=30, fill=NAVY)
+    d.text((MARGIN + 28, 153), tag, font=tf, fill=WHITE)
+    f, lines, lh = fit_headline(d, spec["headline"], W - 2 * MARGIN, 400, start=96)
+    y = 250
+    for ln in lines:
+        d.text((MARGIN, y), ln, font=f, fill=NAVY); y += lh
+    y += 50
+    pf = font("semi", 36)
+    nf = font("bold", 34)
+    for n, p in enumerate(spec.get("points", [])[:3], 1):
+        pl = wrap(d, p, pf, W - 2 * MARGIN - 150)
+        ch = 50 * len(pl) + 56
+        d.rounded_rectangle([MARGIN, y, W - MARGIN, y + ch], radius=24, fill=WHITE)
+        cy = y + ch // 2
+        d.ellipse([MARGIN + 30, cy - 30, MARGIN + 90, cy + 30], fill=BLUE)
+        s = str(n)
+        d.text((MARGIN + 60 - d.textlength(s, font=nf) / 2, cy - 22), s, font=nf, fill=WHITE)
+        ty = y + 28
+        for ln in pl:
+            d.text((MARGIN + 120, ty), ln, font=pf, fill=NAVY); ty += 50
+        y += ch + 22
+    footer(img, d, False, logo, spec.get("footer_cta"))
+    return img
+
+def render_bold(spec, logo):
+    """Style 'bold': brand-blue background, big white headline, navy panel of points."""
+    img = Image.new("RGB", (W, H), BLUE)
+    d = ImageDraw.Draw(img)
+    d.ellipse([W - 230, -330, W + 330, 130], outline=(120, 182, 222), width=26)
+    d.ellipse([W - 300, H - 560, W + 160, H - 100], outline=(120, 182, 222), width=20)
+    d.text((MARGIN, 150), spec.get("eyebrow", "INSURANCE TIP").upper(), font=font("bold", 32), fill=NAVY)
+    d.rectangle([MARGIN, 198, MARGIN + 90, 206], fill=WHITE)
+    pts = spec.get("points", [])[:3]
+    f, lines, lh = fit_headline(d, spec["headline"], W - 2 * MARGIN, 440 if pts else 640, start=108)
+    y = 250
+    for ln in lines:
+        d.text((MARGIN, y), ln, font=f, fill=WHITE); y += lh
+    if pts:
+        y += 50
+        pf = font("med", 36)
+        wrapped = [wrap(d, p, pf, W - 2 * MARGIN - 130) for p in pts]
+        ph = sum(46 * len(w) + 24 for w in wrapped) + 60
+        d.rounded_rectangle([MARGIN, y, W - MARGIN, y + ph], radius=28, fill=NAVY)
+        ty = y + 34
+        for w in wrapped:
+            d.text((MARGIN + 44, ty - 2), "✓", font=font("bold", 36), fill=BLUE)
+            for ln in w:
+                d.text((MARGIN + 96, ty), ln, font=pf, fill=WHITE); ty += 46
+            ty += 24
+    footer(img, d, False, logo, spec.get("footer_cta"))
+    return img
+
+STYLES = {"tip": render_tip, "navy": render_tip, "light": render_light, "bold": render_bold}
+
 def main():
     args = sys.argv[1:]
     logo = None
@@ -145,7 +209,10 @@ def main():
         i = args.index("--logo"); logo = args[i + 1]; del args[i:i + 2]
     spec = json.load(open(args[0]))
     out = args[1]
-    img = render_blog(spec, logo) if spec.get("template") == "blog" else render_tip(spec, logo)
+    if spec.get("template") == "blog":
+        img = render_blog(spec, logo)
+    else:
+        img = STYLES[spec.get("style", "navy")](spec, logo)
     img.save(out, "JPEG", quality=90, optimize=True)
     print(out, os.path.getsize(out), "bytes")
 
