@@ -13,8 +13,12 @@ def main():
     week = json.load(open(week_path))
     cal_path = "calendar.json"
     cal = json.load(open(cal_path)) if os.path.exists(cal_path) else {"entries": []}
-    keep = [e for e in cal["entries"]
-            if not any(e["date"] == n["date"] and e["kind"] == n["kind"] for n in week["entries"])]
+    def key(e):
+        if e["kind"] == "coverage_check":
+            return (e["date"], e["kind"], e.get("title") or e["spec"]["headline"])
+        return (e["date"], e["kind"], e.get("video_number"))
+    new_keys = {key(n) for n in week["entries"]}
+    keep = [e for e in cal["entries"] if key(e) not in new_keys]
     md = [f"# Steve — week of {week['week']}", ""]
     for e in sorted(week["entries"], key=lambda x: (x["date"], x["kind"])):
         if e["kind"] == "coverage_check":
