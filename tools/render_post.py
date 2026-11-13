@@ -21,6 +21,7 @@ BLUE = (74, 153, 204)       # #4a99cc
 WHITE = (255, 255, 255)
 SOFT = (220, 233, 243)
 MARGIN = 96
+EMAIL = "cody@lamensinsurance.com"
 
 FONT_DIRS = ["/usr/share/fonts/opentype/inter", "/usr/share/fonts/truetype/dejavu"]
 def font(weight, size):
@@ -78,11 +79,14 @@ def footer(img, d, dark_bg, logo_path, cta):
         d.text((MARGIN, yc - 30), "Lamens Insurance Agency", font=font("bold", 34), fill=WHITE)
         d.text((MARGIN, yc + 12), "Insurance in Lamens Terms", font=font("med", 24), fill=BLUE)
     cta = cta or "(425) 419-0099"
-    f = font("semi", 30)
-    d.text((W - MARGIN - d.textlength(cta, font=f), yc - 34), cta, font=f, fill=WHITE)
-    sf = font("med", 24)
+    f = font("semi", 28)
+    d.text((W - MARGIN - d.textlength(cta, font=f), yc - 52), cta, font=f, fill=WHITE)
+    ef = font("med", 25)
+    em = EMAIL
+    d.text((W - MARGIN - d.textlength(em, font=ef), yc - 12), em, font=ef, fill=WHITE)
+    sf = font("med", 22)
     sv = "Serving WA, OR & ID"
-    d.text((W - MARGIN - d.textlength(sv, font=sf), yc + 10), sv, font=sf, fill=BLUE)
+    d.text((W - MARGIN - d.textlength(sv, font=sf), yc + 24), sv, font=sf, fill=BLUE)
 
 def render_tip(spec, logo):
     img = Image.new("RGB", (W, H), NAVY)
