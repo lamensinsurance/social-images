@@ -40,7 +40,7 @@
       "caption": "Storm season in the Northwest means falling branches. If one lands on your parked car, which part of your auto policy steps in? 🌲\n\nDamage from things like falling trees, hail, flooding, fire, theft and hitting an animal generally falls under COMPREHENSIVE coverage. Collision is for when your car hits another vehicle or an object, like a guardrail. And if you only carry liability coverage, damage to your own car usually isn't covered at all.\n\nComprehensive typically has its own deductible, so check what yours is before the next windstorm, not after.\n\nWant a quick look at what your auto policy includes? Call or text (425) 419-0099.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #PNWWeather"
     },
     {
-      "date": "2026-11-15",
+      "date": "2026-11-21",
       "kind": "coverage_check",
       "line": "Home",
       "slug": "fallen-tree-home",
@@ -153,6 +153,25 @@
       "runtime": "~58 seconds",
       "script": "Last time, we covered comprehensive and collision. Today, let's clear up a phrase you hear all the time: full coverage. Here's the surprise. Full coverage isn't an actual type of policy. Most people use it to mean liability plus comprehensive plus collision. But that combination can still leave gaps. It may not include things like rental car reimbursement, roadside assistance, or protection when the driver who hits you doesn't have enough insurance. And your limits matter just as much as the coverages themselves. Two people can both say they have full coverage and be protected very differently. So, self-check. If someone asked what's actually on your policy, could you list it? If not, that's a great reason to review it. Next time, we'll look at the coverage that protects you when the other driver can't pay. Insurance in Laymens terms.",
       "caption": "\"Full coverage\" is one of the most-used phrases in insurance, and it isn't actually a type of policy. Here's what it usually means and what it can leave out.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #FullCoverage"
+    },
+    {
+      "date": "2026-11-15",
+      "kind": "coverage_check",
+      "line": "Home",
+      "slug": "loss-of-use",
+      "spec": {
+        "template": "tip",
+        "eyebrow": "Home Coverage Check",
+        "headline": "Forced out of your home? Who pays to live elsewhere",
+        "points": [
+          "Often called loss of use or ALE",
+          "Can help with hotel, rent, extra food",
+          "Dollar and time limits often apply"
+        ],
+        "footer_cta": "Questions? (425) 419-0099",
+        "style": "bold"
+      },
+      "caption": "If a fire or major water leak made your home unlivable tomorrow, where would you stay, and who would pay for it? 🏠\n\nMany home policies include coverage often called additional living expenses, or loss of use. When a covered loss forces you out during repairs, it can help with the extra costs of living somewhere else, like a hotel or short-term rental, higher-than-usual food costs or extra mileage. It's generally meant to cover the increase above your normal expenses, not your regular bills.\n\nThis coverage usually has a dollar limit, a time limit or both, and it typically applies only when the damage itself is covered. Heating season and winter storms are a good time to know what yours looks like.\n\nWant to know how your policy handles this? Call or text (425) 419-0099 for a free coverage review.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance"
     }
   ]
 }
