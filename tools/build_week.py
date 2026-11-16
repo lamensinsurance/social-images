@@ -36,17 +36,26 @@ def main():
     keep = [e for e in cal["entries"] if key(e) not in new_keys]
     md = [f"# Steve — week of {week['week']}", ""]
     first_date = min(n["date"] for n in week["entries"])
+    # Graphic style rotation ignores photo posts.
     history = [e.get("style", "navy") for e in sorted(keep, key=lambda x: x["date"])
-               if e["kind"] == "coverage_check" and e["date"] < first_date]
+               if e["kind"] == "coverage_check" and e["date"] < first_date
+               and e.get("style") != "photo"]
     for e in sorted(week["entries"], key=lambda x: (x["date"], x["kind"])):
         if e["kind"] == "coverage_check":
-            if "style" not in e["spec"]:
-                e["spec"]["style"] = pick_style(history)
-            history.append(e["spec"]["style"])
             img = f"images/{e['date']}-{e['slug']}.jpg"
             json.dump(e["spec"], open("/tmp/spec.json", "w"))
-            subprocess.run(["python3", "tools/render_post.py", "/tmp/spec.json", img,
-                            "--logo", "tools/logo-white.png"], check=True)
+            if e["spec"].get("template") == "photo":
+                # Photo post: HeyGen photo saved in photos/, branded band added here.
+                e["spec"]["style"] = "photo"
+                subprocess.run(["python3", "tools/render_photo.py", "/tmp/spec.json", img,
+                                "--logo", "tools/logo-white.png"], check=True)
+            else:
+                if "style" not in e["spec"]:
+                    e["spec"]["style"] = pick_style(history)
+                history.append(e["spec"]["style"])
+                json.dump(e["spec"], open("/tmp/spec.json", "w"))
+                subprocess.run(["python3", "tools/render_post.py", "/tmp/spec.json", img,
+                                "--logo", "tools/logo-white.png"], check=True)
             entry = {"date": e["date"], "kind": "coverage_check", "line": e["line"],
                      "title": e["spec"]["headline"], "style": e["spec"]["style"],
                      "image_url": RAW + img, "caption": e["caption"]}

@@ -100,18 +100,17 @@
       "date": "2026-11-18",
       "kind": "coverage_check",
       "line": "Business",
-      "slug": "home-business-gap",
+      "slug": "home-business-photo",
       "spec": {
-        "template": "tip",
+        "template": "photo",
+        "photo": "photos/2026-11-18-home-business.png",
         "eyebrow": "Small Business Coverage Check",
         "headline": "Run a business from home? Check this gap",
-        "points": [
-          "Home policies limit business gear",
-          "Client injuries may not be covered",
-          "Business coverage can fill the gap"
+        "lines": [
+          "Run a business from home?",
+          "Check this gap."
         ],
-        "footer_cta": "Questions? (425) 419-0099",
-        "style": "bold"
+        "style": "photo"
       },
       "caption": "Working from home or running a side business out of the house? Your homeowners policy may not cover as much as you'd think. 🏠💼\n\nMany home policies put a low limit on business equipment and inventory kept at home, and they often exclude liability that comes from business activities. So if a client trips on your front steps during a business visit, or your work laptop and inventory are stolen, your home policy might cover only a small part of it, or none at all.\n\nDepending on the business, options like a home business endorsement or a business owner's policy (BOP) can help fill that gap.\n\nRunning something from home? Call (425) 419-0099 or email cody@lamensinsurance.com and let's make sure the business side is protected too.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #SmallBusiness #HomeBusiness"
     },
