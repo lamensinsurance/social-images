@@ -1,0 +1,59 @@
+{
+  "week": "Holiday greetings 2026–27",
+  "entries": [
+    {
+      "date": "2026-11-26",
+      "kind": "coverage_check",
+      "line": "Holiday",
+      "slug": "happy-thanksgiving",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/holiday-thanksgiving.png",
+        "eyebrow": "From our family to yours",
+        "headline": "Happy Thanksgiving from Lamens Insurance Agency",
+        "lines": [
+          "Happy Thanksgiving",
+          "from Lamens Insurance Agency"
+        ],
+        "style": "photo"
+      },
+      "caption": "Happy Thanksgiving from Lamens Insurance Agency! 🦃\n\nWe're grateful for our clients, our neighbors and our communities across Washington, Oregon and Idaho. Thank you for trusting us to help protect the things that matter most.\n\nWishing you a warm, safe holiday with the people you love.\n\n#HappyThanksgiving #LamensInsurance #LamensTerms #WashingtonInsurance"
+    },
+    {
+      "date": "2026-12-25",
+      "kind": "coverage_check",
+      "line": "Holiday",
+      "slug": "merry-christmas",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/holiday-christmas.png",
+        "eyebrow": "From our family to yours",
+        "headline": "Merry Christmas from Lamens Insurance Agency",
+        "lines": [
+          "Merry Christmas",
+          "from Lamens Insurance Agency"
+        ],
+        "style": "photo"
+      },
+      "caption": "Merry Christmas from Lamens Insurance Agency! 🎄\n\nFrom all of us at Lamens Insurance Agency, thank you for being part of our community this year. We hope your home is full of warmth, good food and the people who mean the most to you.\n\nWishing you a joyful and safe holiday season.\n\n#MerryChristmas #LamensInsurance #LamensTerms #WashingtonInsurance"
+    },
+    {
+      "date": "2027-01-01",
+      "kind": "coverage_check",
+      "line": "Holiday",
+      "slug": "happy-new-year",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/holiday-newyear.png",
+        "eyebrow": "From our family to yours",
+        "headline": "Happy New Year from Lamens Insurance Agency",
+        "lines": [
+          "Happy New Year",
+          "from Lamens Insurance Agency"
+        ],
+        "style": "photo"
+      },
+      "caption": "Happy New Year from Lamens Insurance Agency! 🎆\n\nThank you to our clients and neighbors across Washington, Oregon and Idaho for a wonderful year. We're looking forward to helping you start 2027 with confidence.\n\nWishing you a healthy, happy and safe new year.\n\n#HappyNewYear #LamensInsurance #LamensTerms #WashingtonInsurance"
+    }
+  ]
+}

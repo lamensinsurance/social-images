@@ -1,0 +1,41 @@
+{
+  "week": "2026-11-20 to 2026-11-22 (transition to Mon–Sun weeks)",
+  "entries": [
+    {
+      "date": "2026-11-20",
+      "kind": "coverage_check",
+      "line": "Auto",
+      "slug": "roadside-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-11-20-roadside.png",
+        "eyebrow": "Auto Coverage Check",
+        "headline": "Car quit on you? Check your roadside coverage",
+        "lines": [
+          "Car quit on you?",
+          "Check your roadside coverage."
+        ],
+        "style": "photo"
+      },
+      "caption": "Breakdowns don't wait for good weather. If your car quits on a cold, wet shoulder this winter, would your policy help get you moving? 🚗\n\nRoadside assistance, sometimes called towing and labor coverage, is often an optional add-on to an auto policy. Depending on your policy, it can help with things like:\n• Towing to a repair shop\n• Jump-starts for a dead battery\n• Flat tire changes\n• Lockouts and fuel delivery\n\nIt usually has limits, such as a maximum tow distance or a cap per service call, and it's typically only there if it was added to your policy. Cold snaps are hard on batteries, so now is a good time to check whether you have it.\n\nWant to know what your auto policy includes? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #RoadsideAssistance"
+    },
+    {
+      "date": "2026-11-22",
+      "kind": "coverage_check",
+      "line": "Life",
+      "slug": "life-through-work-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-11-22-life-work.png",
+        "eyebrow": "Life Coverage Check",
+        "headline": "Life insurance through work? Know the limits",
+        "lines": [
+          "Life insurance through work?",
+          "Know the limits."
+        ],
+        "style": "photo"
+      },
+      "caption": "Have life insurance through work? It's a great benefit, but it may not be the whole picture. 💡\n\nMany employers offer group life insurance, often a flat amount or a multiple of your salary. It can be a helpful starting point. A few things to know:\n• It's often tied to your job, so it may end or change if you leave, retire or are laid off\n• The amount may be less than your family would actually need\n• You usually have less control over it than over a policy you own\n\nAn individual policy is one you own directly, so it generally stays with you no matter where you work. Many people use both together.\n\nThis post is educational only. Want to talk through how much coverage makes sense for you? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage, features and availability vary by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #LifeInsurance #EmployeeBenefits"
+    }
+  ]
+}
