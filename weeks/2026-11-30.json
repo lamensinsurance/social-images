@@ -1,0 +1,154 @@
+{
+  "week": "2026-11-30 to 2026-12-06",
+  "entries": [
+    {
+      "date": "2026-11-30",
+      "kind": "coverage_check",
+      "line": "Home",
+      "slug": "ice-dam-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-11-30-ice-dam.png",
+        "eyebrow": "Home Coverage Check",
+        "headline": "Icicles on the roof? Watch for ice dams",
+        "lines": [
+          "Icicles on your roof?",
+          "Watch for ice dams."
+        ],
+        "style": "photo"
+      },
+      "caption": "Those icicles look pretty, but they can be a sign of something sneaky happening on your roof. ❄️\n\nAn ice dam forms when snow melts higher on the roof, then refreezes at the colder edge. Water backs up behind the ice and can work its way under shingles and into ceilings and walls.\n\nHow a home policy may look at it:\n• Sudden water damage inside your home is often covered, depending on your policy\n• Long-term wear, maintenance issues or slow leaks usually aren't\n• Removing the ice itself may not be covered\n\nClearing gutters, keeping snow off the roof edge when it's safe, and good attic insulation and ventilation can all help.\n\nQuestions about how your policy handles winter water damage? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance #WinterReady"
+    },
+    {
+      "date": "2026-12-01",
+      "kind": "coverage_check",
+      "line": "Auto",
+      "slug": "windshield-glass",
+      "spec": {
+        "template": "tip",
+        "eyebrow": "Auto Coverage Check",
+        "headline": "Cracked windshield? It's often comprehensive",
+        "points": [
+          "Rocks, branches and hail damage",
+          "Your deductible may apply",
+          "Some policies offer glass options"
+        ],
+        "footer_cta": "Questions? (425) 419-0099",
+        "style": "navy"
+      },
+      "caption": "A rock kicks up on the freeway and suddenly there's a crack spreading across your windshield. Which part of your policy handles that? 🚗\n\nWindshield and window damage from things like road debris, falling branches or hail is usually handled under comprehensive coverage, not collision. That means:\n• It's generally only covered if comprehensive is on your policy\n• Your comprehensive deductible may apply\n• Some policies offer optional glass coverage that can change how glass claims work, depending on your state and policy\n\nCold Northwest mornings can make a small crack grow fast, so it's worth getting damage checked early.\n\nWant to know how glass damage works on your policy? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #WindshieldRepair"
+    },
+    {
+      "date": "2026-12-02",
+      "kind": "coverage_check",
+      "line": "Small Business",
+      "slug": "holiday-market-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-12-02-holiday-market.png",
+        "eyebrow": "Small Business Coverage Check",
+        "headline": "Selling at a holiday market? Check your coverage",
+        "lines": [
+          "Selling at a holiday market?",
+          "Check your coverage."
+        ],
+        "style": "photo"
+      },
+      "caption": "Holiday markets are a great way to reach new customers. Before you set up your table, it's worth asking one question: what if someone gets hurt at your booth? 🎄\n\nMany markets and event organizers ask vendors to carry their own general liability insurance. It can help if a customer is injured or their property is damaged because of your booth or products.\n\nA few things many small sellers don't realize:\n• A homeowners policy usually doesn't cover business activities\n• Your inventory and display gear may need their own coverage away from home\n• Some events require a certificate of insurance before you can set up\n\nIf you're selling this season, now is a good time to make sure your coverage matches what you're doing. Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #SmallBusiness #BusinessInsurance"
+    },
+    {
+      "date": "2026-12-03",
+      "kind": "coverage_check",
+      "line": "Life",
+      "slug": "life-changes-review",
+      "spec": {
+        "template": "tip",
+        "eyebrow": "Life Coverage Check",
+        "headline": "Big change this year? Review your life insurance",
+        "points": [
+          "Marriage, divorce or a new baby",
+          "New home or bigger mortgage",
+          "New job or change in benefits"
+        ],
+        "footer_cta": "Questions? (425) 419-0099",
+        "style": "bold"
+      },
+      "caption": "Year-end is a natural time to look back, and if your life changed a lot this year, your life insurance may deserve a fresh look too. 💡\n\nLife insurance is often set up for the life you had when you bought it. Big changes can mean your coverage no longer fits, such as:\n• Getting married or divorced\n• Welcoming a new baby or adopting\n• Buying a home or taking on a bigger mortgage\n• Changing jobs, which can affect coverage you had through work\n\nA review can help you check whether the amount still fits your family's needs and whether your beneficiaries are up to date.\n\nThis post is educational only. Want to talk through your situation? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage, features and availability vary by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #LifeInsurance #FinancialPlanning"
+    },
+    {
+      "date": "2026-12-04",
+      "kind": "coverage_check",
+      "line": "Auto",
+      "slug": "gifts-in-car-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-12-04-gifts-in-car.png",
+        "eyebrow": "Auto Coverage Check",
+        "headline": "Gifts stolen from your car? Who covers what",
+        "lines": [
+          "Gifts stolen from your car?",
+          "Here's who covers what."
+        ],
+        "style": "photo"
+      },
+      "caption": "Holiday shopping means a trunk full of gifts. If someone breaks into your car and takes them, here's something that surprises a lot of people: your auto policy usually isn't what covers the gifts. 🎁\n\nHow it generally works:\n• Damage to the car itself, like a broken window, is often handled under comprehensive coverage on your auto policy\n• Personal belongings stolen from the car are usually covered under your homeowners or renters policy, depending on your policy and deductible\n\nThat means two different policies, and possibly two deductibles, can come into play.\n\nA few habits help: keep gifts out of sight in the trunk, lock up every time and avoid leaving bags in the car overnight.\n\nQuestions about how your home and auto coverage work together? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #HolidayShopping"
+    },
+    {
+      "date": "2026-12-05",
+      "kind": "coverage_check",
+      "line": "Home",
+      "slug": "rebuild-cost",
+      "spec": {
+        "template": "tip",
+        "eyebrow": "Home Coverage Check",
+        "headline": "Your home's market value isn't its rebuild cost",
+        "points": [
+          "Rebuild cost is what your limit covers",
+          "Labor and materials can change",
+          "Remodels can raise the cost"
+        ],
+        "footer_cta": "Questions? (425) 419-0099",
+        "style": "light"
+      },
+      "caption": "Your home's market value and the cost to rebuild it are two different numbers, and your dwelling coverage is usually based on the second one. 🏠\n\nMarket value includes things like the land and your neighborhood. Rebuild cost is what it would take to repair or rebuild the structure itself, including labor and materials.\n\nWhy it matters:\n• If your dwelling limit is lower than your rebuild cost, you could come up short after a major loss\n• Construction costs can change over time\n• Remodels, additions and upgrades can raise what it would cost to rebuild\n\nThe end of the year is a good time to check whether your dwelling coverage still fits your home.\n\nWant to review your dwelling limit? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance #Homeowners"
+    },
+    {
+      "date": "2026-12-06",
+      "kind": "coverage_check",
+      "line": "Renters",
+      "slug": "student-home-photo",
+      "spec": {
+        "template": "photo",
+        "photo": "photos/2026-12-06-student-home.png",
+        "eyebrow": "Renters Coverage Check",
+        "headline": "College kid home for break? Check their coverage",
+        "lines": [
+          "College student home?",
+          "Check their coverage."
+        ],
+        "style": "photo"
+      },
+      "caption": "Your college student is home for winter break, probably with a laptop and a car full of laundry. Is their stuff at school covered? 🎓\n\nDepending on your policy, a homeowners policy may extend some coverage to a student's belongings while they're living away at school. A few things to know:\n• That coverage is often limited, sometimes to a portion of your personal property limit\n• It may depend on things like the student's age, enrollment and where they live\n• Students living off campus in their own apartment may need their own renters policy\n\nBreak is a good time to check before they head back with new laptops and gifts.\n\nWant to know how your policy handles a student away at school? Call (425) 419-0099 or email cody@lamensinsurance.com.\n\nCoverage varies by policy, state and eligibility.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #RentersInsurance #CollegeLife"
+    },
+    {
+      "date": "2026-11-30",
+      "kind": "heygen",
+      "video_number": 7,
+      "theme": "Auto",
+      "title": "The Auto Coverage Gaps People Miss",
+      "runtime": "~58 seconds",
+      "script": "Last time, we looked at how your driving habits can factor into your auto insurance. Today, let's wrap up our auto series with the gaps people miss most. First, rental reimbursement. If your car is in the shop after a covered claim, a rental may not be included unless you added it. Second, roadside assistance, which is usually optional too. Third, a newer car that's financed or leased. If it's totaled, the payout is generally based on the car's value, which can be less than what you still owe. Gap coverage can help with that difference. And fourth, limits that haven't changed in years, even though your life has. Here's your self-check. Do you know which of these are on your policy right now? Next time, we're switching to home insurance, starting with replacement cost versus actual cash value. Insurance in Laymens terms.",
+      "caption": "Rental cars, roadside help, gap coverage and old limits: here are the auto coverage gaps people miss most.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #AutoInsurance #CoverageGaps"
+    },
+    {
+      "date": "2026-12-03",
+      "kind": "heygen",
+      "video_number": 8,
+      "theme": "Home",
+      "title": "Replacement Cost vs. Actual Cash Value",
+      "runtime": "~58 seconds",
+      "script": "Last time, we wrapped up our auto series. Now we're switching to home insurance, starting with two phrases that can change a claim check: replacement cost and actual cash value. Picture a kitchen fire that ruins a ten-year-old refrigerator. With actual cash value, the payment usually reflects what that fridge was worth after ten years of wear, which might not be much. With replacement cost, the payment is generally based on what it costs to buy a comparable new one today. The same idea can apply to your roof, your furniture and even the structure of your home, depending on your policy. Here's your self-check. Does your policy say replacement cost or actual cash value, and do you know which parts each one applies to? Next time, we'll look at dwelling versus personal property coverage. Insurance in Laymens terms.",
+      "caption": "Two phrases on your home policy can change what a claim pays. Here's replacement cost vs. actual cash value.\n\n#insurance #insuranceeducation #LamensTerms #WashingtonInsurance #LamensInsurance #HomeInsurance #ReplacementCost"
+    }
+  ]
+}
